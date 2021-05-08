@@ -1,0 +1,129 @@
+@import url("https://fonts.google.com/specimen/Inter");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    background-color: hsl(233, 47%, 7%);
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrap>.container { 
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.wrap>.attribution {
+    color: #a4a1bb;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+.wrap>.attribution>a.text1 {
+    text-decoration: none;
+    color: #a4a1bb;
+    letter-spacing: 1px;
+}
+
+.wrap>.attribution>a.coder-name {
+    text-decoration: none;
+    color: #a4a1bb;
+    letter-spacing: 1px;
+}
+
+
+.wrap>.container>.card {
+    width: 1100px;
+    height: 460px;
+    display: flex;
+    margin: 0 auto;
+    background: hsl(244, 38%, 16%);
+}
+
+.wrap>.container>.card>.left-side { 
+    width: 50%;
+    background-color: hsl(244, 38%, 16%); 
+}
+ 
+.wrap>.container>.card>.left-side>.text {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    color: white; 
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+.wrap>.container>.card>.left-side>.text>.main-text {
+    font-size: 39px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left: 29px;
+
+}
+
+.wrap>.container>.card>.left-side>.text>.description {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 27px;
+    margin-left: 25px;
+    color: #a4a1bb;
+    width: 80%;
+    line-height: 29px;
+}
+.wrap>.container>.card>.left-side>.text>h2>span#purple-text {
+    color: #aa58da;
+}
+
+.wrap>.container>.card>.left-side>.text>.card-body {
+    display: flex;
+}
+
+.wrap>.container>.card>.left-side>.text>.card-body>.number-area {
+    width: 25%; 
+    margin: 35px 20px;
+}
+
+.wrap>.container>.card>.left-side>.text>.card-body>.number-area>.counter {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 0px 7px 0px;
+}
+
+.wrap>.container>.card>.left-side>.text>.card-body>.number-area>span {
+    color: #a4a1bb;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+ 
+
+.wrap>.container>.card>.right-side {
+    display: flex;
+    width: 50%;
+    background-size: cover;
+    background-color: hsl(277, 64%, 61%);
+}
+
+ .wrap>.container>.card>.right-side>img {
+    background-size: cover; 
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+ }
+
+ 
+
+ 
